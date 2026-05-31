@@ -26,8 +26,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 1.57rem;
-  margin-right: 1.57rem;
+  margin: 2rem;
 }
 
 .title-container {
@@ -104,6 +103,7 @@ p {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     max-width: 62.5rem;
+    margin-bottom: 3rem;
   }
   .grid-card {
     display: flex;
